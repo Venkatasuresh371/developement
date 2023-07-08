@@ -30,7 +30,7 @@ public class EmployeeService
 			Employee constructEmployee = constructEmployee(employeeRequest);
 			repository.save(constructEmployee);
 			response.setStatusCode("200");
-			response.setSuccessMessage("Employee has been added");
+			response.setSuccessMessage("Employee has been added successfull");
 			response.setEmp(constructEmployee);
 		}
 		else
